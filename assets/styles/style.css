@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo&family=Oswald:wght@200&family=Philosopher&display=swap');
+
+html {
+  font-family: 'Glegoo', serif;
+}
+
+body {
+  background: rgb(77,43,19);
+  background: linear-gradient(90deg, rgba(77,43,19,1) 0%, rgba(167,98,40,1) 54%);
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+p {
+  text-align: end;
+  font-size: 18px;
+}
+
+.paper {
+  background-color: #ffffff;
+  margin: 7%;
+  padding: 4%;
+  border-radius: 5px;
+  box-shadow: 9px 9px 15px 8px rgb(0, 0, 0, 0.8);
+}
+
+.name, .contact{
+  text-decoration: none;
+}
+
+.contact::after {
+  text-decoration: none;
+  color: green;
+}
+
+.print {
+  display: block;
+  cursor: pointer;
+  border: 1px solid black;
+  box-shadow: 3px 3px 8px 4px rgb(0, 0, 0, 0.8);
+  margin: 75px auto;
+  min-width: 150px;
+  min-height: 70px;
+  font-size: 20px;
+  border-radius: 5px;
+  
+}
+
+.print:hover {
+  background: linear-gradient(90deg, rgba(77,43,19,1) 0%, rgba(167,98,40,1) 100%);
+  color:#ffffff;
+}
